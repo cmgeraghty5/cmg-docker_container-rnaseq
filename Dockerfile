@@ -14,7 +14,4 @@ RUN conda install -y subread
 
 RUN conda install -y fastqc
 
-RUN ln -s /path/to/file /path/to/symlink
-
-
-## create simlink to star -> so you only have to type 'star' instead of 'STAR'
+RUN conda install -c bioconda gatk
